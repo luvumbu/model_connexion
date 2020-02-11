@@ -7,6 +7,14 @@
     //  
     //
 𝕨𝕨𝕨.𝔹𝕠𝕜𝕠𝕟𝕫𝕚.𝕔𝕠𝕞  𝖞𝖉𝖊𝖓𝖌𝖆 𝕿𝖚𝖛𝖚𝖒𝖇𝖚   ★☆♨♫✈❤   -->
+<?php
+session_start() ;
+?>
+<script
+    src="https://code.jquery.com/jquery-3.4.1.min.js"
+    integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+    crossorigin="anonymous"></script>
+    
 <!DOCTYPE html>
     <html lang="fr">
         <head>
@@ -29,4 +37,7 @@
             window.onload = document.getElementById('body').style.display='block';
             //  affiche la page apres le chargement ♨=#ix0001   ☆
         </script>
+
+    <script>
+
     </html>

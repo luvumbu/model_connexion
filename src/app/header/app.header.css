@@ -1,9 +1,99 @@
-/*𝕨𝕨𝕨.𝔹𝕠𝕜𝕠𝕟𝕫𝕚.𝕔𝕠𝕞  𝖞𝖉𝖊𝖓𝖌𝖆 𝕿𝖚𝖛𝖚𝖒𝖇𝖚   ★☆♨♫✈❤     
-    //  ★   =   début de l'information
-    //  ☆   =   fin de l'information
-    //  ♨   =   Code de l'information premier letre du fichier et dernier lettre du fichier suivi du numéro du commentaire.
-    //  ♫   = connexion css all suivi du nom du fichier 
-    //  ✈  = ♨=#ap001   provenence du fichier total /!\ ... app.php ...    /!\ racine du fichier ♨=#ap001
-    //  ❥ = le fichier ne pas au même emplacement que l'appelant /!\
-    //
-𝕨𝕨𝕨.𝔹𝕠𝕜𝕠𝕟𝕫𝕚.𝕔𝕠𝕞  𝖞𝖉𝖊𝖓𝖌𝖆 𝕿𝖚𝖛𝖚𝖒𝖇𝖚   ★☆♨♫✈❤  /**/
+.inputs
+{
+    border:1px solid rgba(0, 0, 0, 0.3) ; 
+    text-align: center;
+    padding: 10px;
+    width: 80%;
+    border-radius: 15px;
+    margin-bottom: 15px;
+}
+.envoyer_disable
+{
+    opacity: 0.2;
+}
+.envoyer_on
+{
+    opacity: 1;
+}
+.inputs_envoyer
+{ 
+    padding: 10px;
+    color:black ;            
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    font-size: 1.4em;
+}
+.information_G2
+{
+    text-align: center;
+   
+}
+.opacity_off
+{
+     opacity: 0;
+     transform: translateX(200px); /* On déplace l'objet */
+     transition: 1s all;
+     position: absolute;
+    
+}
+.opacity_on
+{
+     opacity: 1;
+     transform: translateX(0px); /* On déplace l'objet */
+     transition: 1s all;
+    
+}
+.information_G
+{
+     
+    display: flex;
+    border-bottom: 4px solid black;
+    justify-content: space-around;           
+    margin-top: 20px;
+    transition: 1s all ; 
+    margin-bottom: 40px;
+}
+.connexion_hover:hover 
+{
+    transition: 1s all;
+    background-color: rgba(0, 0, 0, 0.3);
+}
+.connexion_hover 
+{
+    transition: 0.5s all;
+}
+
+.cursor-pointer
+{
+    cursor: pointer;
+}
+.cursor-pointer:hover
+{
+    cursor: pointer;
+}
+#formulaire 
+{
+    border:1px solid grey ; 
+    width: 40%;
+    margin: auto;
+    margin-top:10px;
+}
+.information_G_child
+{
+ 
+    padding: 15px;
+    margin:0;
+}
+body 
+{
+    overflow: hidden; /* Hide scrollbars */
+}
+@media screen and (max-width: 1280px)
+    {               
+        .information_G,#formulaire 
+            {                    
+
+                width: 80%;
+                transition: 1s all ;   
+            }
+    }
