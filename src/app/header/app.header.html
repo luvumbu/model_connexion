@@ -68,9 +68,24 @@ input4_4_.onkeypresS_="keylog()";
 input4_4_.onkeyuP_="keylog()";
 inputs_envoyer.clasS_ ="inputs_envoyer cursor-pointer" ; 
 inputs_envoyer.innerhtmL_="Envoyer";
+setatributes("inputs_envoyer","onclick","inputs_envoyer_status()") ;  
+
+function inputs_envoyer_status()
+{
+  if(envoyer_==false)
+  {
+     // si les valeurs sont vides 
+  }
+
+}
 function connexion_on()
 {  
-     statu = "con";  
+ 
+  
+    document.getElementById("input1").value="";
+    document.getElementById("input4").value="";
+    envoyer_  =false;
+    statu = "con";  
     document.getElementById("information_G2").className="information_G2 opacity_on";
     inputs_2.clasS_="opacity_off";
     inputs_3.clasS_="opacity_off";
@@ -81,6 +96,13 @@ function connexion_on()
 }
 function inscription_on()
 {  
+    envoyer_  =false;
+    document.getElementById("input1").value="";
+    document.getElementById("input2").value="";
+
+    document.getElementById("input3").value="";
+    document.getElementById("input4").value="";
+ 
     statu = "ion";   
     document.getElementById("information_G2").className="information_G2 opacity_on";
     inputs_2.clasS_="inputs";
